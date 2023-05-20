@@ -1,0 +1,23 @@
+{
+  "name": "firstcapstoneproject",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kgomotso196/FirstCapstoneProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kgomotso196/FirstCapstoneProject/issues"
+  },
+  "homepage": "https://github.com/Kgomotso196/FirstCapstoneProject#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
