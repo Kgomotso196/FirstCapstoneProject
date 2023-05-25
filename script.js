@@ -5,7 +5,7 @@ function ReadElement(selector) {
 const menu = ReadElement('#menu-image');
 const nav = ReadElement('.mobile-nav');
 const closeNav = ReadElement('.cross');
-const take = ReadElement('mobile-nav-ul');
+const take = ReadElement('.mobile-nav-ul');
 
 function addMenu(selected, modalPart, opener) {
   return selected.addEventListener('click', () => {
@@ -103,7 +103,7 @@ const myPrograms = [
 ];
 
 document.querySelector('.program-container').innerHTML = myPrograms.map((program) => `
-      <article  class="first-container p-2 ">
+      <article  class="container p-2 ">
           <div class="d-flex align-items-center program-card p-2">
               <img src=${program.image} width="50" height="50" alt="lecture">
               <h4 class="program-title px-2">${program.title}</h4>
