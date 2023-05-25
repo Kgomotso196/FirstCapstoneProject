@@ -8,10 +8,7 @@ body {
   width: 100%;
 }
 
-.main-nav {
-  background-color: #272a31;
-}
-
+.main-nav,
 .navigation,
 .link-to-program,
 .last-text {
@@ -270,7 +267,6 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 0;
-    float: right;
   }
 
   .main-nav-i {
