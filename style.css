@@ -23,7 +23,7 @@ body {
   height: 10vh;
 }
 
-.bg-text-clip {
+.top-bg {
   background-image: url("assets/backgroundImg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   #sponsor,
-  #news {
+  #updates {
     display: none;
   }
 }
