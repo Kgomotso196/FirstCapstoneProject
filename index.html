@@ -9,34 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Gentium+Plus:wght@700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="main-nav bg-secondary">
-        <div class="first-container">
+        <div class="container">
             <ul class="main-nav-ul float-right">
-                <li class="main-nav-i"><i class="bi bi-facebook"></i></li>
-                <li class="main-nav-i"><i class="bi bi-twitter"></i></li>
+                <li class="main-nav-i"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="main-nav-i"><i class="fa-brands fa-twitter"></i></li>
                 <li class="main-nav-i">English</li>
                 <li class="main-nav-i">My Page</li>
                 <li class="main-nav-i">Logout</li>
             </ul>
         </div>
     </nav>
-    <nav class="second-nav" id="first-header">
-        <div class="first-container">
+    <nav class="second-nav fixed-top-nav" id="first-header">
+        <div class="container">
             <i class="fa-solid fa-bars" id="menu-image"></i>
             <div class="navigation">
                 <img class="navigation-logo" src="assets/musicFestivalLogo.png" width="75px" alt="Festival">
                 <ul class="second-nav-ul float-right">
-                    <li><a class="second-nav-i" href="about.html">About</a></li>
-                    <li><a class="second-nav-i" href="#program">Program</a></li>
-                    <li><a class="second-nav-i" href="#join">Join</a></li>
-                    <li><a class="second-nav-i" href="#sponsor">Sponsor</a></li>
-                    <li><a class="second-nav-i" href="#updates">News</a></li>
-                    <li><a href="#" class="mt-4 p-3" id="cc-btn">CC Campaign</a></li>
+                    <li><a class="second-nav-i" href="about.html">About</a></li><br>
+                    <li><a class="second-nav-i" href="#program">Program</a></li><br>
+                    <li><a class="second-nav-i" href="#join">Join</a></li><br>
+                    <li><a class="second-nav-i" href="#sponsor">Sponsor</a></li><br>
+                    <li><a class="second-nav-i" href="#updates">News</a></li><br>
+                    <li><a href="#" class="mt-3 p-2" id="cc-btn">CC Campaign</a></li><br>
                 </ul>
             </div>
         </div>
@@ -44,64 +43,74 @@
     <nav class="mobile-nav">
         <span class="cross">x</span>
         <ul class="mobile-nav-ul">
-            <li><a class="mobile-nav-i" href="about.html">About</a></li>
-            <li><a class="mobile-nav-i" href="#program">Program</a></li>
-            <li><a class="mobile-nav-i" href="#join">Join</a></li>
-            <li><a class="mobile-nav-i" href="#sponsor">Sponsor</a></li>
-            <li><a class="mobile-nav-i" href="#updates">News</a></li>
-            <li><a href="#" class="mt-4 p-3" id="cc-btn">CC Campaign</a></li>
+            <li><a class="mobile-nav-i" href="about.html">About</a></li><br>
+            <li><a class="mobile-nav-i" href="#program">Program</a></li><br>
+            <li><a class="mobile-nav-i" href="#join">Join</a></li><br>
+            <li><a class="mobile-nav-i" href="#sponsor">Sponsor</a></li><br>
+            <li><a class="mobile-nav-i" href="#updates">News</a></li><br>
+            <li><a href="#" class="mt-3 p-2" id="cc-btn">CC Campaign</a></li><br>
         </ul>
     </nav>
     <main class="top-section">
         <section class="top-bg">
-            <div class="px-[10%] bg-[#5f5ff50] h-screen flex justify-center flex-col gap-5">
-                <div class="hero text-[#ec5242]">
-                    <h2 class="text-[25px] md:text-[50px]">"Hello! Sharing World"</h2>
-                    <h1 class="hero-first-title">Legends Of Sound<br>Festival</h1>
-                </div>
-                <div class="bg-[#d3d3d3] text-[#ec5242] w-[100%] md:w-[65%] px-[5%] py-[1%] border-solid border-2 border-[fff]">
-                    <p class="text-p p-3 border border-white">Grab your friends, grab your dancing shoes and let's go! Let's make this festival an unforgettable experience!</p>
-                </div>
-                <div class="text-[#272a31]">
-                    <h2 class="text-time text-[25px] md:text-[40px] text-[#272a31]">📆23 June(Fri) to 25 June(Sun) 2023</h2>
+            <section class="hero container"><br><br><br><br>
+                <h2 class="salute">"Hello! Sharing World"</h2>
+                <h1 class="hero-first-title">Legends Of Sound<br>Festival</h1><br>
+            </section>
+            <section class="text-message">
+                <div class="container">
+                    <p class="message-p p-3 border border-white">Grab your friends, grab your dancing shoes and let's go! Let's make this festival an unforgettable experience!</p>
+                    <h2 class="message-time">📆23 June(Fri) to 25 June(Sun) 2023</h2>
                     <p>📍39 Gwi Gwi Mrwebi St, Newtown.</p>
                 </div>
-            </div>
+            </section><br><br><br>
         </section>
-        <section class="program">
+
+        <section class="program" id="program">
             <br>
             <h4 class="text-center section-title-white">Main Program</h4>
             <hr class="line-name">
-            <div class="program-container"></div>
+            <div class="program-container container">
+
+
+            </div>
             <br>
-            <div class="first-container text-center">
+            <div class="container text-center">
+                <a href="#" class="ticket-btn p-3" id="ticket">Get Your Ticket Now</a>
                 <a href="#" class="link-to-program p-3">See The Whole Program</a>
             </div><br><br>
         </section>
+
         <section class="first-speaker">
             <br>
             <h4 class="text-center section-title-black">Featured Speakers</h4>
             <hr class="line-name">
-            <div class="first-container"><div class="carry-speaker row"></div></div>
+            <div class="container">
+
+                <div class="carry-speaker row"></div>
+            </div>
+
             <div class="see-more rounded"><p class="text-center pt-2">More<i class="fa-sharp fa-solid fa-chevron-down more-icon"></i></p></div><br><br>
         </section>
-        <section class="more-partners bg-secondary">
-            <div class="first-container"><br>
+        <section class="more-partners bg-secondary" id="sponsor">
+            <div class="container"><br>
                 <h4 class="text-center section-title-white">Partner</h4><hr class="line-name">
-                <div class="first-container p-div text-center">
+                <div class="container p-div text-center">
                     <div class="first-group">
                         <h4 class="first-p">Spotify</h4>
-                        <h4 class="second-p">YouTube</h4>
-                        <h4 class="third-p">DStv</h4>
-                        <h4 class="fourth-p">Amazon</h4>
-                        <h4 class="fifth-p">TikTok</h4>
+                        <h4 class="second-p">&nbsp YouTube</h4>
+                        <h4 class="third-p">&nbsp DStv</h4>
+                    </div>
+                    <div class="first-group">
+                        <h4 class="fourth-p">&nbsp Amazon</h4>
+                        <h4 class="fifth-p">&nbsp TikTok</h4>
                     </div>
                 </div>
             </div><br><br>
         </section>
     </main>
     <footer class="bg-light" id="updates">
-        <div class="first-container bottom-part">
+        <div class="container bottom-part">
             <img src="assets/musicfestival.png" width="100px" alt="Music Festival">
             <div class="pl-5 bottom-txt"><br>2023. Some Rights Reserved.<br>
                 <i class="last-text">For more info visit our site: https://www.musicfestival.com</i>
