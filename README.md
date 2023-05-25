@@ -1,36 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>First Capstone Project</b></h3>
 
 </div>
 
@@ -58,68 +32,66 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [FirstCapstoneProject] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[FirstCapstoneProject]** is a two page website designed for Music Festal in Newtown.It has been designed using HTML, CSS, JS and some parts are designed dynamically like the 'the speakers' section' part, and has the functionality for both mobile-first and desktop-first versions.
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- HTML5
+- CSS3
+- JS
+- DOM MANIPULATION
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Linters</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://youtu.be/HDQXWr5TOnI">Lesson on Linters</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>HTML5</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://youtu.be/x4OKqZ2kIx4">Lesson on HTML5</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>CSS3</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://youtu.be/wIzPMotxMCM">Lesson on CSS3</a></li>
   </ul>
 </details>
-
-<!-- Features -->
+<details>
+<summary>Figma</summary>
+  <ul>
+    <li><a href="https://youtu.be/-FiFCSoNMxM">Lesson on Figma</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Usage of flexbox]**
+- **[Mobile responsives setup]**
+- **[Use-of-HTML5 tools]**
+- **[Follow HTML and CSS best practice]**
+- **[Dynamically designed]**
+- **[DOM Manipulation]**
+- **[Scroldown menu for mobile version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://kgomotso196.github.io/FirstCapstoneProject/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -127,120 +99,109 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- Visual Studio Code
+- Github Account
+- Git Bash
+- Node JS
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/Kgomotso196/FirstCapstoneProject.git
 
 
 ### Install
 
 Install this project with:
 
+```sh
+  cd my-project
+  npm init -y
+```
 
+```sh
+  npm install --save-dev hint@7.x
+```
+
+```sh
+  npx hint .
+```
+
+```sh
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: npm test
+Example command:
 
+```sh
+   GitHub Pages Server
+```
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: npm test
+Example command:
 
-
+```sh
+  npx stylelint "**/*.{css,scss}" --fix
+```
+```sh
+  npx eslint "**/*.js" --fix
+```
 
 ### Deployment
 
 You can deploy this project using:
-
+GitHub Pages
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Kgomotso**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@kgomotso196](https://github.com/Kgomotso196)
+- Twitter: [@t_r_o_o_s](https://twitter.com/t_r_o_o_s)
+- LinkedIn: [Kgomotso Nacane](https://www.linkedin.com/in/kgomotso-nacane-4909ba259/)
+- Slack: [@Kgomotso Nacane](https://app.slack.com/client/T47CT8XPG/D04PLARKJSZ/rimeto_profile/U04H94E2UF9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+- [ ] **[More section inclusiveness]**
+- [ ] **[Desktop Responsivness]**
+- [ ] **[Animation]**
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Kgomotso196/FirstCapstoneProject/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project then please follow me on Linkedin, Twitter and GitHub. Greetings!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+Sending my gratitude to Microverse with this amazing Project.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+A special Shout Out to Cindy Shin too for this skeleton.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
