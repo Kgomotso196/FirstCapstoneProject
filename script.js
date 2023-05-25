@@ -53,6 +53,12 @@ function ReadElement(selector) {
       quote: 'Rhythm and Harmony find their way into the inward places of the soul.',
       picture: 'assets/Meghan.png',
     },
+    {
+      name: 'Kgololo Polelo',
+      about: 'A singer-songwriter and television personality.',
+      quote: 'Rhythm and Harmony find their way into the inward places of the soul.',
+      picture: 'assets/Kgololo.png',
+    },
   ];
 
   document.querySelector('.carry-speaker').innerHTML = speakers.map((speak) => `
@@ -97,7 +103,7 @@ function ReadElement(selector) {
   ];
 
   document.querySelector('.program-container').innerHTML = myPrograms.map((program) => `
-      <article  class="container p-2 ">
+      <article  class="first-container p-2 ">
           <div class="d-flex align-items-center program-card p-2">
               <img src=${program.image} width="50" height="50" alt="lecture">
               <h4 class="program-title px-2">${program.title}</h4>
